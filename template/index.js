@@ -5,7 +5,14 @@ const getInputData = () => {
     return data
 }
 
-const data = getInputData().trim.split("\n")
+const processLine = (line) => {
+    let parsedLine
+
+
+    return parsedLine
+}
+
+const data = getInputData().trim.split("\n").map(processLine)
 console.log(data)
 
 let prevSum = data[0] + data[1] + data[2]
