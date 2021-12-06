@@ -12,5 +12,8 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
+        "no-restricted-syntax": "off",
+        "consistent-return":"off"
     }
 }
